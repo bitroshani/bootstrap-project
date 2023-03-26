@@ -39,7 +39,7 @@ p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    text-align: center;
+    /* text-align: center; */
     color: #FFFFFF;
     padding-top: 8rem;
     margin: 0 auto;
@@ -162,6 +162,13 @@ header nav ul li a {
     flex-direction: column;
 }
 
+.border-end {
+    padding-right: 15rem;
+}
+
+
+
+
 .discover-symbol h3 {
     font-weight: 700;
     font-size: 54px;
@@ -179,7 +186,7 @@ header nav ul li a {
 
 
 
-h3 {
+.discover-part h3 {
     font-family: 'Alegreya';
     font-style: normal;
     font-weight: 700;
@@ -187,16 +194,124 @@ h3 {
     line-height: 114px;
     text-transform: uppercase;
     color: #FFFFFF;
+    padding-bottom: 14rem;
 
+}
+
+.discover-part p {
+    margin-top: 5rem;
+}
+
+/* ************************************* */
+/* *********super part******************* */
+
+#super {
+    background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    padding: 21.1rem 16.2rem 30rem 16.2rem;
+}
+
+
+#super h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 191px;
+    color: #FFFFFF;
+
+}
+
+/* ************************************* */
+
+/* *******demo part************************ */
+
+#demo {
+    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+.demo-box {
+    border: 2px solid #fff;
+}
+
+#demo .row>*:nth-child(odd) {
+    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
+}
+
+#demo .row>*:nth-child(even) {
+    padding: 7.5rem 4.2rem 7.5rem 7.5rem;
+}
+
+.demo-box p {
+    padding-top: 2rem;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #C8191C;
+    text-align: center;
+
+}
+
+#demo h3 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#demo h4 {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 3rem;
+}
+
+.demo-box {
+    padding: 5rem 6rem;
+}
+
+#demo p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.demo-box img {
+    width: 100%;
+}
+
+/* ************************************* */
+
+/* *********science part**************** */
+#Science {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+}
+
+#Science h4 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
 
 
 
 
-
-
-
 /* ************************************* */
+
+
 
 
 @media screen and (min-width:1650px) {
