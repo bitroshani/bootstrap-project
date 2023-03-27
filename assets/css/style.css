@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -10,6 +12,7 @@ html {
 
 body {
     font-family: 'Alegreya';
+    /* background-color: brown; */
 }
 
 ul {
@@ -25,70 +28,27 @@ img {
     display: block;
 }
 
-input,
-select {
-    font-family: 'Alegreya';
-}
+/*********header************/
+
+
 
 .container {
-    /* height: 100%; */
+    height: 100px;
+    background-color: black;
     color: #fff;
 }
-
-p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    /* text-align: center; */
-    color: #FFFFFF;
-    padding-top: 8rem;
-    margin: 0 auto;
-}
-
-.btn-theam {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    color: #FFFFFF;
-    background-color: #C8191C;
-    display: inline-block;
-    padding: 1.3rem;
-    width: 30rem;
-    height: 6.3rem;
-    text-align: center;
-}
-
-h5 {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-transform: uppercase;
-    color: #C8191C;
-
-}
-
-/* **********header part***************** */
 
 header .container {
     display: flex;
     justify-content: space-between;
-    /* height: 100px; */
-    background-color: transparent;
+    height: 100px;
+    background-color: black;
     color: #fff;
     align-items: center;
 }
 
 header nav ul {
     display: flex;
-}
-
-header {
-    width: 100%;
-    top: 0;
-    position: fixed;
-    z-index: 9;
-    background-color: black;
 }
 
 header nav ul li a {
@@ -99,10 +59,10 @@ header nav ul li a {
     color: #FFFFFF;
 }
 
-/* ********************************* */
 
-/* ******************hero part*********** */
+/**************************/
 
+/*********Hero Section**********/
 #hero {
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
     position: relative;
@@ -147,181 +107,332 @@ header nav ul li a {
     color: #C8191C;
 }
 
-/* ************************************* */
+/**************************/
 
-/* ***********discover part************************ */
-
-#discover {
-    padding: 20rem 0 20rem 0;
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+/******Descover*************/
+#descover {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 258.79%);
+    width: 100%;
+    padding: 10rem 0;
+    margin-top: -0.5rem;
 }
 
-#discover .discover-symbol>* {
-    align-items: center;
+.discover-icons {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 17.2rem;
 }
 
-.border-end {
-    padding-right: 15rem;
-}
-
-
-
-
-.discover-symbol h3 {
+.discover-icons h3 {
     font-weight: 700;
-    font-size: 54px;
-    line-height: 73px;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    /* margin-left: -9rem; */
-
 }
 
-.discover-part {
-    padding: 20rem 0 20rem 0;
-}
-
-
-
-.discover-part h3 {
-    font-family: 'Alegreya';
-    font-style: normal;
+.main-title h5 {
     font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    color: #C8191C;
+}
+
+.main-title h2 {
+    font-weight: 700;
+    font-size: 8.4rem;
+    line-height: 11.4rem;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-bottom: 14rem;
+    margin-bottom: 8rem;
+}
+
+#descover .main-title h2 {
+    max-width: 57.4rem;
+}
+
+.discover-with p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin-top: 12rem;
+}
+
+.discover-with h5 {
+    margin-top: 2.8rem;
+}
+
+.with-img .dis-img {
+    width: 72.9rem;
+    height: 50.6rem;
+    object-position: left center;
+    object-fit: cover;
+}
+
+.with-img .dis-img img {
+    width: 100%;
+    height: 100%;
 
 }
 
-.discover-part p {
+.with-data {
+    padding-left: 15rem;
+    position: relative;
+}
+
+.with-data::before {
+    content: '';
+    position: absolute;
+    width: 0rem;
+    height: 46rem;
+    border: 1px solid #FFF;
+    left: 3rem;
+    top: 3.8rem;
+}
+
+.with-data .btn-theme {
+    margin-top: 3rem;
+    display: inline-block;
+
+}
+/**************************/
+
+
+
+/************Imageine Section********/
+#imageine {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    padding: 10rem 0;
+    margin-top: -0.5rem;
+}
+
+.super-imagine h2 {
+    font-weight: 700;
+    font-size: 14.0rem;
+    line-height: 19.1rem;
+    color: #FFFFFF;
+}
+
+.super-imagine p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin-top: 11.5rem;
+    max-width: 46rem;
+}
+
+.super-imagine .image-img {
+    width: 90rem;
+    height: 33rem;
+    object-position: center bottom;
+    object-fit: cover;
+    margin-bottom: 10rem;
+    margin-left: 4rem;
+}
+
+.super-imagine .image-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/**************************************/
+
+/***************Service Section***************/
+#SERVICES {
+    margin-top: -0.5rem;
+    padding: 10rem 0;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+}
+
+#SERVICES h2,
+#SERVICES h5 {
+    text-align: center;
+}
+
+#SERVICES h2 {
+    max-width: 148rem;
+    text-align: center;
+    margin-bottom: 10rem;
+    margin: 0 auto 10rem auto;
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    gap: 43px 90px;
+}
+
+.forecast .forecast-data {
+    padding: 6rem;
+}
+
+.forecast .forecast-data img {
+    width: 53rem;
+    height: 32rem;
+    object-position: center center;
+    object-fit: cover;
+}
+
+.forecast .forecast-data h4 {
+    font-size: 4.4rem;
+    line-height: 6.0rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
     margin-top: 5rem;
 }
 
-/* ************************************* */
-/* *********super part******************* */
-
-#super {
-    background: linear-gradient(180deg, #000000 37.37%, #C8191C 231.27%);
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    padding: 21.1rem 16.2rem 30rem 16.2rem;
-}
-
-
-#super h4 {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 140px;
-    line-height: 191px;
+.forecast .forecast-data p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
     color: #FFFFFF;
-
+    margin-top: 2rem;
+    max-width: 53rem;
 }
 
-/* ************************************* */
 
-/* *******demo part************************ */
+/**************************************/
 
-#demo {
-    background: linear-gradient(180deg, #000000 16.49%, #C8191C 274.79%);
+/*************Why Section*************/
+
+#why {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    margin-top: -0.5rem;
+    padding: 10rem 0;
 }
 
-.demo-box {
-    border: 2px solid #fff;
+#why .main-title {
+    text-align: center;
 }
 
-#demo .row>*:nth-child(odd) {
-    padding: 7.5rem 7.5rem 7.5rem 4.2rem;
+#why .main-title h2 {
+    margin-bottom: 17.2rem;
 }
 
-#demo .row>*:nth-child(even) {
-    padding: 7.5rem 4.2rem 7.5rem 7.5rem;
+.why-choose {
+    display: flex;
+    justify-content: space-between;
 }
 
-.demo-box p {
-    padding-top: 2rem;
+.why-choose img {
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
 }
 
-h5 {
+.why-choose h3 {
     font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.why-choose p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/**************************************/
+
+/**************Horoscope Section************/
+#Horoscope {
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    margin-top: -0.5rem;
+    padding: 10rem 0;
+}
+
+#Horoscope .main-title {
+    text-align: center;
+}
+
+#Horoscope .main-title h2 {
+    max-width: 110rem;
+    margin: 0 auto 10rem auto;
+}
+
+.hs-box {
+    display: flex;
+    gap: 0 6rem;
+    margin-bottom: 10rem;
+}
+
+.hs-row {
+    display: flex;
+    gap: 0 8.6rem;
+}
+
+.hs-box .hs-img img {
+    width: 18rem;
+    height: 18rem;
+}
+
+.hs-box .hs-data h3 {
+    font-weight: 700;
+    font-size: 5.4rem;
+    line-height: 7.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+.hs-box .hs-data p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+#Horoscope a {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.client {
+    margin-top: 20rem;
+    justify-content: space-between;
+}
+
+.client h5 {
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-align: center;
     text-transform: uppercase;
     color: #C8191C;
-    text-align: center;
-
+    text-align: left;
 }
 
-#demo h3 {
+.client h2 {
     font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
-    text-align: center;
+    font-size: 10rem;
+    line-height: 13.6rem;
     text-transform: uppercase;
     color: #FFFFFF;
-}
-
-#demo h4 {
-    font-weight: 700;
-    font-size: 44px;
-    line-height: 60px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 3rem;
-}
-
-.demo-box {
-    padding: 5rem 6rem;
-}
-
-#demo p {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
-}
-
-.demo-box img {
-    width: 100%;
-}
-
-/* ************************************* */
-
-/* *********science part**************** */
-#Science {
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
-}
-
-#Science h4 {
-    font-weight: 700;
-    font-size: 84px;
-    line-height: 114px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
+    /* text-align: center; */
 }
 
 
-
-
-/* ************************************* */
-
-
-
+/**************************************/
 
 @media screen and (min-width:1650px) {
     .container {
         max-width: 150rem;
-    }
-
-    .hero-data h1 {
-        font-size: 11rem;
-        line-height: 140px;
     }
 }
 
