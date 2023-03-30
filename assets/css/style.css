@@ -570,71 +570,340 @@ header .navbar-dark .navbar-toggler {
 
 /**************************************/
 
-/* *******************price part******/
 #mem-price {
-    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
-    padding: 21.9rem 0;
+    background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    margin-top: -0.5rem;
+    padding: 10rem 0;
 }
 
-#mem-price h5,
+
+#mem-price .main-title {
+    text-align: center;
+}
+
+.mp-data h3 {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.mp-data h2 {
+    font-weight: 700;
+    font-size: 7.2rem;
+    line-height: 9.8rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 3rem;
+}
+
+.mp-data h2 span {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.3rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.mp-data p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.mp-data p i {
+    display: inline-block;
+    font-size: 4.4rem;
+    width: 4rem;
+    height: 4rem;
+    color: #fff;
+    margin-right: 2rem;
+    /* transition: 1s; */
+}
+
+/* .mp-data p i:hover{
+    transition: 0.5s;
+    background-color:blue;
+    
+} */
+
+.mp-data .btn-theme {
+    margin-top: 8rem;
+    display: block;
+}
+
+.mp-data-box {
+    padding: 6rem 7.7rem;
+}
+
+.mp-data-box:hover {
+    background-color: #C8191C;
+    transition: 1s;
+}
+
+.mp-data-box:hover .btn-theme {
+    background-color: #FFF;
+    color: #C8191C;
+}
+
+/*********************************************/
+
+/* *******say-about part********************* */
+
+#say-about {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    margin-top: -0.5rem;
+    padding: 10rem 0;
+}
+
+#say-about .main-title h2 {
+    max-width: 140rem;
+    font-weight: 700;
+    font-size: 13rem;
+    line-height: 19.1rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto;
+}
+
+/* .arrow-img {
+    width: ;
+} */
+.arrow-img img {
+    margin: 3.7rem auto 14rem auto;
+    text-align: center;
+}
+
+.swiper-wrapper {
+    margin: 2rem 5rem;
+}
+
+.swiper-wrapper .client-say {
+    padding-left: 3rem;
+    /* width: 48rem;
+    height: 76rem; */
+    margin: 0 2.1rem;
+}
+
+.client-say .client-img {
+    Width: 47.6rem;
+    Height: 51.2rem;
+    margin-bottom: 10rem;
+
+}
+
+.client-say .client-img img {
+    Width: 100%;
+    Height: 100%;
+
+}
+.client-data{
+    position: relative;
+}
+
+.client-data::before{
+    content: '';
+    background: url(../images/“.png);
+    position: absolute;
+    inset: 0;
+    background-size: 20% auto;
+    background-repeat: no-repeat;
+    background-position: left center;
+    top: -17rem;
+    left: -3rem;
+}
+.client-say .client-data {
+    position: relative;
+}
+
+.client-say .client-data img {
+    position: absolute;
+    width: 9.8rem;
+    height: 8.5rem;
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 30rem;
+    top: -5rem;
+    left: -3rem;
+}
+
+.client-say .client-data p {
+    max-width: 465px;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.client-say .client-data h4 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 5.3rem;
+    color: #FFFFFF;
+
+}
+
+.mySwiper {
+    position: relative;
+    margin: 0 16rem;
+    /* padding: 0 16rem; */
+}
+
+.mySwiper .swiper-button-next {
+    position: absolute;
+    top: 28rem;
+    color: #FFF;
+    right: 2rem;
+}
+
+.mySwiper .swiper-button-prev {
+    position: absolute;
+    top: 28rem;
+    color: #FFF;
+    left: 2rem;
+}
+
+/*********************************************/
+
+
+/* ************blog part*************************** */
+#blog {
+    background: linear-gradient(0deg, #000000 16.49%, #C8191C 274.79%);
+    width: 100%;
+    padding: 10rem 0;
+    margin-top: -0.5rem;
+}
+
+#blog h5,
 h2 {
     text-align: center;
 }
 
-#mem-price .row {
-    justify-content: space-between;
-    padding: 0 2rem;
+.blog-data img {
+    width: 36.1rem;
+    height: 45rem;
+    object-fit: cover;
+    object-position: center center;
+}
+.blog-data img img{
+    width: 100%;
 }
 
-#mem-price .row>* {
-    border: 2px solid #fff;
-    padding: 2rem 7.7rem;
-}
-
-.membership-main h3 {
+.blog-data h3 {
+    margin-top: 5rem;
+    font-style: normal;
     font-weight: 700;
     font-size: 24px;
     line-height: 33px;
-    text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
+    max-width: 36rem;
 }
 
-.membership-main h2 {
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 98px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-
-.membership-main span {
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 33px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.membership-main ul li{
-    display: flex;
-    margin: 3rem 0;
-    align-items: center;
-
-}
-.membership-main ul a{
-    margin-top: 8rem;
-}
-.membership-main ul li p{
+.blog-data p {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-top: 2rem;
+    max-width: 36rem;
+}
+.blog-data p span{
+    color: #0085FF;
+    margin-top: 2.1rem;
 }
 
 
+/*********************************************/
+
+#feedback {
+    background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
+    width: 100%;
+    padding: 10rem 0;
+    margin-top: -0.5rem;
+}
+
+#feedback hr {
+    border: none;
+    /* width: auto; */
+    height: 3px;
+    background-color: #FFF;
+    margin: 0 auto;
+}
+
+.fb-data {
+    margin: 8rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fb-data .maps img {
+    width: 32.1rem;
+    height: 18.5rem;
+}
+
+.fb-data h3 {
+    margin-bottom: 2rem;
+    font-weight: 700;
+    font-size: 3.2rem;
+    line-height: 4.4rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.fb-data p {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+}
+
+.fb-data .logo-blog p {
+    width: 27.3rem;
+}
+
+.contact a i:hover {
+    color: red;
+}
+
+#feedback p span {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 auto 4.5rem auto;
+}
+
+.fb-data a {
+    display: block;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: #FFFFFF;
+    margin-bottom: 2rem;
+}
+
+.fb-data a i {
+    margin-right: 2rem;
+
+}
+
+.form-data {
+    padding: 0 3rem;
+}
 
 
 
@@ -651,42 +920,3 @@ h2 {
         max-width: 170rem;
     }
 }
-
-/* <section id="mem-price">
-            <div class="container">
-                <div class="main-title">
-                    <h5>Membership</h5>
-                    <h2>Membership Price</h2>
-                </div>
-
-                <div class="mp-data row justify-content-around">
-                    <div class="mp-data-box col-auto border">
-                        <h3>STARTER PRICE</h3>
-                        <h2>$44/<span>Month</span></h2>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <a href="#" class="btn-theme">Choose Now</a>
-                    </div>
-                    <div class="mp-data-box col-auto border">
-                        <h3>BEST VALUE</h3>
-                        <h2>$72/<span>Month</span></h2>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <a href="#" class="btn-theme">Choose Now</a>
-                    </div>
-                    <div class="mp-data-box col-auto border">
-                        <h3>PREMIUM PRICE</h3>
-                        <h2>$112/ <span>Month</span> </h2>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <p><i class="fa-solid fa-square-check"></i> Lorem ipsum dolor sit amet con</p>
-                        <a href="#" class="btn-theme">Choose Now</a>
-                    </div>
-                </div>
-            </div>
-        </section> */
