@@ -50,15 +50,13 @@ img {
     margin-right: 0;
 }
 
-header .bg-dark {
-    /* background: #000; */
-}
+
 
 header .navbar-dark .navbar-nav .nav-link {
     color: #fff;
     font-size: 2rem;
     text-align: right;
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 header .navbar-dark .navbar-toggler {
@@ -172,6 +170,7 @@ header .navbar-dark .navbar-toggler {
     line-height: 3.3rem;
     text-transform: uppercase;
     color: #C8191C;
+    /* text-align: center; */
 }
 
 .main-title h2 {
@@ -181,6 +180,7 @@ header .navbar-dark .navbar-toggler {
     text-transform: uppercase;
     color: #FFFFFF;
     margin-bottom: 8rem;
+    /* text-align: center; */
 }
 
 #descover .main-title h2 {
@@ -237,41 +237,45 @@ header .navbar-dark .navbar-toggler {
 
 
 /************Imageine Section********/
-#imageine {
+#super {
+    padding-top: 20rem;
+    padding-bottom: 20rem;
     background: linear-gradient(180deg, #000000 36.84%, #C8191C 223.16%);
-    padding: 10rem 0;
-    margin-top: -0.5rem;
 }
 
-.super-imagine h2 {
+.imagine-data {
+    padding-top: 4.5rem;
+}
+
+#super h4 {
     font-weight: 700;
-    font-size: 12rem;
-    line-height: 19.1rem;
+    font-size: 125px;
+    line-height: 191px;
     color: #FFFFFF;
 }
 
-.super-imagine p {
+#super p {
+    padding-top: 11.5rem;
+    width: 49.5rem;
+    color: #fff;
+    font-style: normal;
     font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2.4rem;
-    color: #FFFFFF;
-    margin-top: 11.5rem;
-    max-width: 46rem;
+    font-size: 18px;
+    line-height: 24px;
+
 }
 
-.super-imagine .image-img {
-    width: 90rem;
-    height: 33rem;
-    object-position: center bottom;
-    object-fit: cover;
-    margin-bottom: 10rem;
-    margin-left: 4rem;
+.super-image {
+    padding-left: 8.8rem;
 }
 
-.super-imagine .image-img img {
+.superimg {
     width: 100%;
-    height: 100%;
+}
 
+.super-data h4 {
+    padding-top: 14.4rem;
+    padding-left: 14.9rem;
 }
 
 /**************************************/
@@ -328,6 +332,8 @@ header .navbar-dark .navbar-toggler {
     margin-top: 2rem;
     max-width: 53rem;
 }
+
+
 
 /**************************************/
 
@@ -574,7 +580,7 @@ header .navbar-dark .navbar-toggler {
     background: linear-gradient(0deg, #000000 36.84%, #C8191C 223.16%);
     width: 100%;
     margin-top: -0.5rem;
-    padding: 10rem 0;
+    padding: 20rem 0;
 }
 
 
@@ -686,33 +692,34 @@ header .navbar-dark .navbar-toggler {
 }
 
 .swiper-wrapper {
-    margin: 2rem 5rem;
+    /* margin: 2rem 5rem; */
 }
 
 .swiper-wrapper .client-say {
     padding-left: 3rem;
     /* width: 48rem;
     height: 76rem; */
-    margin: 0 2.1rem;
+    /* margin: 0 2.1rem; */
 }
 
 .client-say .client-img {
     Width: 47.6rem;
     Height: 51.2rem;
-    margin-bottom: 10rem;
+    padding-bottom: 10rem;
 
 }
 
+/* 
 .client-say .client-img img {
     Width: 100%;
     Height: 100%;
 
-}
-.client-data{
+} */
+.client-data {
     position: relative;
 }
 
-.client-data::before{
+.client-data::before {
     content: '';
     background: url(../images/“.png);
     position: absolute;
@@ -720,11 +727,13 @@ header .navbar-dark .navbar-toggler {
     background-size: 20% auto;
     background-repeat: no-repeat;
     background-position: left center;
-    top: -17rem;
+    top: -7rem;
     left: -3rem;
 }
+
 .client-say .client-data {
     position: relative;
+    padding-top: 5rem;
 }
 
 .client-say .client-data img {
@@ -743,6 +752,7 @@ header .navbar-dark .navbar-toggler {
     font-size: 1.8rem;
     line-height: 2.4rem;
     color: #FFFFFF;
+
 }
 
 .client-say .client-data h4 {
@@ -784,10 +794,14 @@ header .navbar-dark .navbar-toggler {
     margin-top: -0.5rem;
 }
 
-#blog h5,
+/* 
+#blog .main-title h5,
 h2 {
     text-align: center;
-}
+} */
+/* #blog h5,h2{
+    text-align: center;
+} */
 
 .blog-data img {
     width: 36.1rem;
@@ -795,7 +809,8 @@ h2 {
     object-fit: cover;
     object-position: center center;
 }
-.blog-data img img{
+
+.blog-data img img {
     width: 100%;
 }
 
@@ -818,7 +833,8 @@ h2 {
     margin-top: 2rem;
     max-width: 36rem;
 }
-.blog-data p span{
+
+.blog-data p span {
     color: #0085FF;
     margin-top: 2.1rem;
 }
