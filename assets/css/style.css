@@ -794,14 +794,21 @@ header .navbar-dark .navbar-toggler {
     margin-top: -0.5rem;
 }
 
-/* 
-#blog .main-title h5,
-h2 {
+
+
+#blog h5,
+h4 {
     text-align: center;
-} */
-/* #blog h5,h2{
+}
+
+#blog h4 {
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 114px;
     text-align: center;
-} */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
 
 .blog-data img {
     width: 36.1rem;
